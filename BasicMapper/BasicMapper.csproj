@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jide Fagbuji</Authors>
+    <Description>Simple minimal mapping of object to object based on similar fields in both objects</Description>
+  </PropertyGroup>
+
+</Project>
