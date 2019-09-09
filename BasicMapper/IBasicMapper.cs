@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Approval.Core.Utility
+namespace OF.BasicMapper
 {
     public interface IBasicMapper
     {

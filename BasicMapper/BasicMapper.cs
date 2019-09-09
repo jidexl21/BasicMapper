@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 
 
-namespace Approval.Core.Utility
+namespace OF.BasicMapper
 {
     public class BasicMapper : IBasicMapper
     {
