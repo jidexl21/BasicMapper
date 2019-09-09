@@ -5,6 +5,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Jide Fagbuji</Authors>
     <Description>Simple minimal mapping of object to object based on similar fields in both objects</Description>
+    <SignAssembly>false</SignAssembly>
+    <PackageId>OF.BasicMapper</PackageId>
   </PropertyGroup>
 
 </Project>
