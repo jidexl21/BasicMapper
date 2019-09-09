@@ -7,6 +7,7 @@
     <Description>Simple minimal mapping of object to object based on similar fields in both objects</Description>
     <SignAssembly>false</SignAssembly>
     <PackageId>OF.BasicMapper</PackageId>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>
