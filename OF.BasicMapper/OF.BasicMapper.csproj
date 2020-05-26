@@ -2,8 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Simple minimal mapping of object to object based on similar fields in both objects</Description>
+    <PackageReleaseNotes>Compatibility issue fix</PackageReleaseNotes>
+    <RepositoryType>GIT</RepositoryType>
+    <RepositoryUrl>https://github.com/jidexl21/BasicMapper</RepositoryUrl>
+    <PackageTags>Mapper</PackageTags>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <FileVersion>2.0.1.0</FileVersion>
   </PropertyGroup>
 
 </Project>
