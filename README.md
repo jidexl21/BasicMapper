@@ -103,9 +103,9 @@ git tag v2.1.0
 git push origin v2.1.0
 ```
 
-The tag (without the `v`) becomes the package version. See [`.github/workflows/publish.yml`](.github/workflows/publish.yml)
-and [CHANGELOG.md](CHANGELOG.md).
+The tag (without the `v`) becomes the package version. See [`.github/workflows/publish.yml`](https://github.com/jidexl21/BasicMapper/blob/master/.github/workflows/publish.yml)
+and [CHANGELOG.md](https://github.com/jidexl21/BasicMapper/blob/master/CHANGELOG.md).
 
 ## Licence
 
-TODO — add a licence.
+MIT
