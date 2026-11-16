@@ -9,7 +9,6 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
 
-  <!-- Package metadata. Version is overridden by CI from the git tag (v2.1.0 -> 2.1.0). -->
   <PropertyGroup>
     <PackageId>OF.BasicMapper</PackageId>
     <Version>2.1.0</Version>
@@ -21,9 +20,7 @@
     <RepositoryUrl>https://github.com/jidexl21/BasicMapper</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>See https://github.com/jidexl21/BasicMapper/blob/master/CHANGELOG.md</PackageReleaseNotes>
-    <!-- TODO: choose a licence before publishing, e.g. <PackageLicenseExpression>MIT</PackageLicenseExpression> -->
-
-    <!-- Source Link + symbol package so consumers can step into the code -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
