@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicMapper", "BasicMapper\BasicMapper.csproj", "{0EE67EB4-5485-4784-A48E-2450E7C57E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OF.BasicMapper", "OF.BasicMapper\OF.BasicMapper.csproj", "{70DF5A7A-F8E3-419F-ACD2-B72200C6AF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OF.BasicMapper", "OF.BasicMapper\OF.BasicMapper.csproj", "{70DF5A7A-F8E3-419F-ACD2-B72200C6AF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OF.BasicMapper.Tests", "OF.BasicMapper.Tests\OF.BasicMapper.Tests.csproj", "{56F69BDE-B608-424C-8E3E-67456A066CAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{70DF5A7A-F8E3-419F-ACD2-B72200C6AF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70DF5A7A-F8E3-419F-ACD2-B72200C6AF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70DF5A7A-F8E3-419F-ACD2-B72200C6AF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F69BDE-B608-424C-8E3E-67456A066CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F69BDE-B608-424C-8E3E-67456A066CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F69BDE-B608-424C-8E3E-67456A066CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F69BDE-B608-424C-8E3E-67456A066CAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

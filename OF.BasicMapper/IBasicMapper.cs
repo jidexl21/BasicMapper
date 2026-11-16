@@ -8,5 +8,7 @@ namespace OF.BasicMapper
         T MapFields<T>(object from, List<string> skip);
         T MapFields<T>(object from, object to);
         T MapFields<T>(object from, object to, List<string> skip);
+        object MapFields(object from, object to, List<string> skip = null);
+
     }
 }
