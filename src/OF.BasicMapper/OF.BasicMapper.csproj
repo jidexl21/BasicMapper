@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>OF.BasicMapper</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <!-- Package metadata. Version is overridden by CI from the git tag (v2.1.0 -> 2.1.0). -->
+  <PropertyGroup>
+    <PackageId>OF.BasicMapper</PackageId>
+    <Version>2.1.0</Version>
+    <Authors>Jide Fagbuji</Authors>
+    <Description>Simple, dependency-free object-to-object mapping: copies values between properties with the same name and a compatible type.</Description>
+    <PackageTags>mapper;mapping;object-mapper;dto;reflection</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/jidexl21/BasicMapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jidexl21/BasicMapper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>See https://github.com/jidexl21/BasicMapper/blob/master/CHANGELOG.md</PackageReleaseNotes>
+    <!-- TODO: choose a licence before publishing, e.g. <PackageLicenseExpression>MIT</PackageLicenseExpression> -->
+
+    <!-- Source Link + symbol package so consumers can step into the code -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
